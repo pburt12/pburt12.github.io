@@ -1,0 +1,33 @@
+body{
+	font-family: "Helvetica", "Verdana", "Noto Sans", sans-serif;
+	background-color: lightgreen;
+}
+.center{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.center{
+	display: block;
+	width: 128px;
+}
+.footer{
+	background-color: green;
+	font-size: 11px ;
+	color: white;
+	position: fixed;
+	bottom: 0;
+}
+.header{
+	background-color: green;
+	height: 25px;
+}
+button{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	cursor: pointer;
+}
+.socials-image{
+	width: 16px;
+	height: 16px;
+}
