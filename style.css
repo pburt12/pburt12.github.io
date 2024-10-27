@@ -1,6 +1,6 @@
 body{
 	font-family: "Helvetica", "Verdana", "Noto Sans", sans-serif;
-	background-color: lightgreen;
+	background-color: babyblue;
 }
 .center{
 	text-align: center;
@@ -12,14 +12,14 @@ img.center{
 	width: 128px;
 }
 .footer{
-	background-color: green;
+	background-color: brightblue;
 	font-size: 11px ;
 	color: white;
 	position: fixed;
 	bottom: 0;
 }
 .header{
-	background-color: green;
+	background-color: brightblue;
 	height: 25px;
 }
 button{
