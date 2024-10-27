@@ -1,6 +1,6 @@
 body{
 	font-family: "Helvetica", "Verdana", "Noto Sans", sans-serif;
-	background-color: babyblue;
+	background-color: argentinanblue;
 }
 .center{
 	text-align: center;
@@ -12,14 +12,14 @@ img.center{
 	width: 128px;
 }
 .footer{
-	background-color: brightblue;
+	background-color: bluedefrance;
 	font-size: 11px ;
 	color: white;
 	position: fixed;
 	bottom: 0;
 }
 .header{
-	background-color: brightblue;
+	background-color: bluedefrance;
 	height: 25px;
 }
 button{
