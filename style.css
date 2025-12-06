@@ -1,33 +1,77 @@
-body{
-	font-family: "Copperplate", "Arial", "Monaco", Monospace;
-	background-color: deepskyblue;
+/* --- Global Styles --- */
+width: min(90%, 800px);
+border: 1px solid rgba(255, 255, 255, 0.15);
+box-shadow: 0 0 18px rgba(4, 120, 202, 0.3);
+transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
-.center{
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+
+
+.panel:hover {
+transform: translateY(-6px);
+box-shadow: 0 0 26px rgba(4, 120, 202, 0.5);
 }
-img.center{
-	display: block;
-	width: 128px;
+
+
+/* --- Neon Button --- */
+button.neon-btn {
+background: transparent;
+color: #4cc9f0;
+padding: 12px 26px;
+border: 2px solid #4cc9f0;
+font-size: 18px;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.25s ease;
+box-shadow: 0 0 12px #4cc9f0;
 }
-.footer{
-	background-color: dodgerblue;
-	font-size: 11px ;
-	color: white;
-	position: fixed;
-	bottom: 0;
+
+
+button.neon-btn:hover {
+background: #4cc9f0;
+color: #020617;
+box-shadow: 0 0 22px #4cc9f0;
 }
-.header{
-	background-color: dodgerblue;
-	height: 25px;
+
+
+/* --- Animated Gradient Headers --- */
+h1, h2 {
+background: linear-gradient(90deg, #4cc9f0, #72efdd, #4cc9f0);
+background-size: 200% 100%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: glowGradient 6s linear infinite;
 }
-button{
-	margin-top: 1px;
-	margin-bottom: 1px;
-	cursor: pointer;
+
+
+@keyframes glowGradient {
+0% { background-position: 0%; }
+100% { background-position: 200%; }
 }
-.socials-image{
-	width: 16px;
-	height: 16px;
+
+
+/* --- UI Card Grid --- */
+.card-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+gap: 20px;
+width: min(90%, 1000px);
+margin: auto;
+margin-top: 40px;
+}
+
+
+.card {
+background: rgba(255, 255, 255, 0.07);
+border-radius: 12px;
+padding: 20px;
+backdrop-filter: blur(12px);
+border: 1px solid rgba(255, 255, 255, 0.15);
+text-align: center;
+transition: 0.25s ease;
+}
+
+
+.card:hover {
+transform: translateY(-6px);
+box-shadow: 0 0 20px rgba(78, 205, 255, 0.4);
 }
