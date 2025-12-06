@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A landing website for anyone interested in KCB Sales">
+    <title>KCB Sales Wesbsite</title>
+	<link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <!-- HEADER / NAV -->
+    <header>
+      <h1>KCB Sales</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#contact">Financial Director, Webpage Maker</a></li>
+          <li><a href="#contact2">Owner, makes all of the games and websites</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <section id="home">
+        <h2>Welcome!</h2>
+        <p>This is the homepage website for all of KCB Sales. We create games and proxies, and will also begin to expand our market to more products in the future. </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <form action="/send" method="post">
+          <label for="name">Peter</label>
+          <input id="name" name="name" type="text" placeholder="Your name">
+
+          <label for="email">vipplayz2013@gmail.com</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write a message..."></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+<section id="contact1">
+        <h2>Contact</h2>
+        <form action="/send" method="post">
+          <label for="name">Rosey</label>
+          <input id="name" name="name" type="text" placeholder="Your name">
+
+          <label for="email">Not yet gotten</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write a message..."></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+      
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <p>&copy; <span id="year">2025</span>KCB Sales</p>
+    </footer>
+
+    <script>
+      // Update year automatically
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+    </script>
+  </body>
+</html>
