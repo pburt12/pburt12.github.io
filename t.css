@@ -1,0 +1,255 @@
+/* ===========================
+   NeoEnglish Translator
+   style.css
+   =========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#111111;
+
+    color:white;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    display:flex;
+
+    justify-content:center;
+
+    padding:40px;
+
+}
+
+.container{
+
+    width:900px;
+
+    max-width:100%;
+
+    background:#1b1b1b;
+
+    border:2px solid #333;
+
+    border-radius:20px;
+
+    padding:30px;
+
+    box-shadow:0 0 25px rgba(0,0,0,.45);
+
+}
+
+h1{
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    font-size:42px;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#bdbdbd;
+
+    margin-bottom:30px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:8px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+}
+
+.speakerBox,
+.inputBox,
+.outputBox{
+
+    margin-bottom:25px;
+
+}
+
+select{
+
+    width:100%;
+
+    padding:12px;
+
+    background:#252525;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:17px;
+
+}
+
+textarea{
+
+    width:100%;
+
+    min-height:180px;
+
+    resize:vertical;
+
+    padding:15px;
+
+    background:#252525;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    line-height:1.5;
+
+}
+
+textarea:focus,
+select:focus{
+
+    outline:2px solid #4a90ff;
+
+}
+
+.outputBox textarea{
+
+    background:#202020;
+
+}
+
+.buttons{
+
+    display:flex;
+
+    gap:15px;
+
+    margin-bottom:25px;
+
+}
+
+button{
+
+    flex:1;
+
+    padding:15px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#4a90ff;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.2s;
+
+}
+
+button:hover{
+
+    background:#6ba5ff;
+
+}
+
+button:active{
+
+    transform:scale(.97);
+
+}
+
+.rules{
+
+    margin-top:35px;
+
+    background:#202020;
+
+    padding:20px;
+
+    border-radius:15px;
+
+}
+
+.rules h2{
+
+    margin-bottom:15px;
+
+    text-align:center;
+
+}
+
+.rules ul{
+
+    list-style:none;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:10px;
+
+}
+
+.rules li{
+
+    background:#292929;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    border-left:4px solid #4a90ff;
+
+}
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-track{
+
+    background:#1b1b1b;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#555;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#777;
+
+}
